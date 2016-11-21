@@ -19,6 +19,6 @@ class MyData : NSObject, NSCoding {
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        valueString = aDecoder.decodeObject(forKey: "valueSring") as? String
+        valueString = aDecoder.decodeObject(forKey: "valueString") as? String
     }
 }

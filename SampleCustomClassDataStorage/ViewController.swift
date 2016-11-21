@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let userDefaults = UserDefaults.standard
+        let userDefaults = UserDefaults.init()
         let data = MyData()
         data.valueString = "test"
         let archiveData = NSKeyedArchiver.archivedData(withRootObject: data)

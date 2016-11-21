@@ -12,6 +12,7 @@
 		CE34CFA61DE293A500A603F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34CFA41DE293A500A603F6 /* Main.storyboard */; };
 		CE34CFA81DE293A500A603F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE34CFA71DE293A500A603F6 /* Assets.xcassets */; };
 		CE34CFAB1DE293A500A603F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE34CFA91DE293A500A603F6 /* LaunchScreen.storyboard */; };
+		CE34CFB31DE2940700A603F6 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34CFB21DE2940700A603F6 /* MyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE34CFA71DE293A500A603F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE34CFAA1DE293A500A603F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE34CFAC1DE293A500A603F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE34CFB21DE2940700A603F6 /* MyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyData.swift; path = ../MyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CE34CF9F1DE293A500A603F6 /* SampleCustomClassDataStorage */ = {
 			isa = PBXGroup;
 			children = (
+				CE34CFB21DE2940700A603F6 /* MyData.swift */,
 				CE34CFA01DE293A500A603F6 /* AppDelegate.swift */,
 				CE34CFA21DE293A500A603F6 /* ViewController.swift */,
 				CE34CFA41DE293A500A603F6 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE34CFB31DE2940700A603F6 /* MyData.swift in Sources */,
 				CE34CFA31DE293A500A603F6 /* ViewController.swift in Sources */,
 				CE34CFA11DE293A500A603F6 /* AppDelegate.swift in Sources */,
 			);
